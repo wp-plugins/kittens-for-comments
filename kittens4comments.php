@@ -3,7 +3,7 @@
 Plugin Name: Kittens for comments
 Plugin URI: http://www.willthewebmechanic.com/kittens-for-comments.html
 Description: Encourages comments by offering cute kitten pictures as a reward.  You can add more pictures by uploading them to wp-content/plugins/kittens4comments/images/kittens
-Version: 1.0
+Version: 1.1
 Author: Will Brubaker
 Author URI: http://www.willthewebmechanic.com
 License: GPLv3
@@ -66,7 +66,6 @@ class KittensForComments {
   if( is_single() ) {
 
    wp_register_script( 'waypoints', plugins_url( 'js/waypoints.min.js', __FILE__ ), array( 'jquery', ), '2.0.2', true );
-   //wp_enqueue_script( 'jquery_tools_overlay', plugins_url( 'js/jquery.tools.overlay.min.js', __FILE__ ), array( 'jquery', ), '1.4.4', true );
    wp_register_script( 'fancybox', plugins_url( 'js/fancybox.min.js', __FILE__ ), array( 'jquery' ), '2.1.5', true );
    wp_enqueue_script( 'kittens4comments', plugins_url( 'js/kittens4comments.js', __FILE__ ), array( 'waypoints', 'fancybox', ), '1.0', true );
    wp_enqueue_style( 'fancyboxstyle', plugins_url( 'css/fancybox.css', __FILE__ ) );
