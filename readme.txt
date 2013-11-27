@@ -3,7 +3,7 @@ Contributors: willthewebmechanic
 Tags: comments, blog
 Requires at least: 3.5.2
 Tested up to: 3.7.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv3
 
 Encourages your readers to leave comments with the promise of a kitten picture.  Who doesn't love kittens?
