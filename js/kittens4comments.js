@@ -4,12 +4,13 @@ var kittenShown = false;
     $('#commentform').submit( function(e) {
         if ( !(kittenShown) ) {
             e.preventDefault();
-            $.fancybox({
+            $.colorbox({
                 href: kittenPic,
+                maxWidth: "80%",
+                maxHeight: "80%",
                 title: "Thanks for your comment! Here's your kitten.",
-                closeClick: true,
-                type: "image",
-                afterClose: function(){
+                type: "photo",
+                onClosed: function(){
                     kittenShown = true;
                     HTMLFormElement.prototype.submit.call($('#commentform')[0]);
                 }

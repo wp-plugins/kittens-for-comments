@@ -3,7 +3,7 @@ Contributors: willthewebmechanic
 Tags: comments, blog
 Requires at least: 3.5.2
 Tested up to: 3.7.1
-Stable tag: 1.1
+Stable tag: 2.0
 License: GPLv3
 
 Encourages your readers to leave comments with the promise of a kitten picture.  Who doesn't love kittens?
@@ -35,17 +35,18 @@ As of right now, there are several:
 
 1.  This plugin assumes that the comment form has an id of "commentform", which is the WordPress default, but if your theme overrides that then this plugin isn't going to do anything for you.  There are plans to remedy this, but I won't go to the trouble unless you ask for it.
 2.  There hasn't been much consideration given to they styling of the modal display.  It may not work very well with your theme.
-3.  There has been no testing done concerning cross-browser display.  The modal may look horrible on some browsers and particularly mobile devices.  Feedback with screenshots will help me remedy this.
-4.  There is absolutely no customization options nor settings for this plugin.  If you need options, please ask and I will do my best to implement that.
+3.  There is absolutely no customization options nor settings for this plugin.  If you need options, please ask and I will do my best to implement that.
 == Screenshots ==
 1. The panel that appears when your comment form comes in to view
 
 2. Kitten!
 
 == Changelog ==
-=1.1=
+= 2.0 =
+fancybox replaced with colorbox to comply with GPL compatible licensing.
+= 1.1 =
 Now uses jquery fancybox to display the kitten picture. This change goes a long way toward making the image fit all screen sizes.
-=1.0=
+= 1.0 =
 initial release
 
 ==Other Information==
