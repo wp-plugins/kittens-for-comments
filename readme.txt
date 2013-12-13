@@ -2,7 +2,7 @@
 Contributors: willthewebmechanic 
 Tags: comments, blog
 Requires at least: 3.5.2
-Tested up to: 3.7.1
+Tested up to: 3.8
 Stable tag: 2.0
 License: GPLv3
 
