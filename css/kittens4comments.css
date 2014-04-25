@@ -5,9 +5,8 @@ position: fixed;
 bottom: 20px;
 right: 0;
 background-color: #F2F2F2;
-height: 200px;
 width: 100px;
-padding: .8em 0 0 .8em;
+padding: 1em;
 font-size: .8em;
 box-shadow: -3px 1px 6px #C0C0C0;
 display: none;
@@ -28,7 +27,7 @@ display: none;
 #modal-content p, #modal-content h3{
 color: #333;
 }
- 
+
 #modal-content .close {
     background:url('../img/close.png') no-repeat right top;
     position:absolute;
